@@ -1,3 +1,6 @@
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from src.maths_operations import addition, subtraction, multiplication, division
 
 def test_addition():
